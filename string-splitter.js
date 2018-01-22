@@ -5,7 +5,7 @@ function stringSplitter(str, sep) {
     return [];
   }
   else {
-    
+    return string.slice()
   }
 }
 
