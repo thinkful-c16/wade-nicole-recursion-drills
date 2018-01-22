@@ -10,7 +10,7 @@ function toBinary(number) {
   if ((number / 2) < 1) {
     return [1];
   }
-  return [...toBinary(Math.floor(number / 2)), number % 2];
+  return [...toBinary(Math.floor(number / 2)), number % 2].join('');
 }
 
 let num = 25;
